@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="My Mountain Way — персональний щоденник гірських походів, пригод і відкриттів.">
+  <meta name="theme-color" content="#17231e">
+  <title>My Mountain Way — The journey is the destination</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="My Mountain Way home">
+      <span class="brand-mark">MMW</span><span>MY MOUNTAIN WAY</span>
+    </a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#journey" data-i18n="nav_journey">Мій шлях</a>
+      <a href="#adventures" data-i18n="nav_adventures">Походи</a>
+      <a href="#journal" data-i18n="nav_journal">Щоденник</a>
+      <a href="#gallery" data-i18n="nav_gallery">Галерея</a>
+      <a href="#connect" data-i18n="nav_connect">Контакти</a>
+    </nav>
+    <div class="language-switch" aria-label="Choose language">
+      <button class="lang active" data-lang="uk">UA</button>
+      <button class="lang" data-lang="en">EN</button>
+      <button class="lang" data-lang="sk">SK</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-image"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow" data-i18n="hero_eyebrow">PERSONAL MOUNTAIN JOURNAL · CARPATHIANS & BEYOND</p>
+        <h1>MY MOUNTAIN<br><em>WAY.</em></h1>
+        <p class="hero-lead" data-i18n="hero_lead">Гори. Рух. Свобода. Історії, які залишаються з нами.</p>
+        <div class="hero-actions">
+          <a class="button button-light" href="#adventures" data-i18n="hero_cta">Дослідити походи <span>↗</span></a>
+          <a class="text-link" href="#journey" data-i18n="hero_more">Моя історія ↓</a>
+        </div>
+      </div>
+      <div class="hero-caption"><span>48° 40′ N</span><span>CARPATHIAN MOUNTAINS</span></div>
+      <div class="hero-scroll">SCROLL TO EXPLORE <span>↓</span></div>
+    </section>
+
+    <section class="intro section-wrap" id="journey">
+      <div class="section-kicker"><span>01 /</span> <span data-i18n="intro_kicker">ЗНАЙОМСТВО</span></div>
+      <div class="intro-grid">
+        <h2 data-i18n="intro_title">Не просто піднятися.<br><em>Відчути шлях.</em></h2>
+        <div class="intro-copy">
+          <p data-i18n="intro_text">Я люблю гори за чесність. Тут не має значення, ким ти був учора — важливо, який крок зробиш сьогодні. My Mountain Way — мій особистий простір для історій про походи, витривалість, природу та свободу руху.</p>
+          <a class="underlined-link" href="#journal" data-i18n="intro_link">Читати щоденник <span>↗</span></a>
+        </div>
+      </div>
+      <div class="stats-row">
+        <div><strong>01</strong><span data-i18n="stat_1">Кожен маршрут — історія</span></div>
+        <div><strong>∞</strong><span data-i18n="stat_2">Нові горизонти</span></div>
+        <div><strong>100%</strong><span data-i18n="stat_3">Присутність у моменті</span></div>
+      </div>
+    </section>
+
+    <section class="adventures section-wrap" id="adventures">
+      <div class="section-heading">
+        <div><div class="section-kicker"><span>02 /</span> <span data-i18n="adventures_kicker">НА МАРШРУТІ</span></div><h2 data-i18n="adventures_title">Останні пригоди</h2></div>
+        <a class="underlined-link" href="#connect" data-i18n="all_stories">Усі історії <span>↗</span></a>
+      </div>
+      <div class="adventure-grid">
+        <article class="adventure-card feature-card">
+          <div class="card-image image-one"><span class="card-number">01</span></div>
+          <div class="card-meta"><span>CARPATHIANS</span><span>HIKING · PHOTO STORY</span></div>
+          <h3 data-i18n="trip_1_title">Стежками Карпат</h3>
+          <p data-i18n="trip_1_text">Ранок у горах, тиша лісу та горизонт, заради якого варто вирушати.</p>
+          <a href="#connect" class="card-link" data-i18n="trip_details">Історія маршруту ↗</a>
+        </article>
+        <article class="adventure-card">
+          <div class="card-image image-two"><span class="card-number">02</span></div>
+          <div class="card-meta"><span>OUTDOOR</span><span>ENDURANCE</span></div>
+          <h3 data-i18n="trip_2_title">Крок за кроком</h3>
+          <p data-i18n="trip_2_text">Про витривалість, ритм і задоволення від самого процесу.</p>
+          <a href="#journal" class="card-link" data-i18n="read_story">Читати нотатку ↗</a>
+        </article>
+        <article class="adventure-card">
+          <div class="card-image image-three"><span class="card-number">03</span></div>
+          <div class="card-meta"><span>LANDSCAPES</span><span>PHOTO DIARY</span></div>
+          <h3 data-i18n="trip_3_title">Мить на вершині</h3>
+          <p data-i18n="trip_3_text">Коли слова зайві, а краєвид говорить сам за себе.</p>
+          <a href="#gallery" class="card-link" data-i18n="view_gallery">Дивитися галерею ↗</a>
+        </article>
+      </div>
+      <p class="editor-note" data-i18n="demo_note">Це демонстраційні картки. Замінимо їх твоїми реальними походами, фото, датами та GPS-треками.</p>
+    </section>
+
+    <section class="quote-band">
+      <div class="quote-bg"></div><div class="quote-overlay"></div>
+      <div class="quote-content"><span>“</span><blockquote data-i18n="quote">Вершина — це лише частина історії. Найважливіше відбувається дорогою.</blockquote><p>MY MOUNTAIN WAY</p></div>
+    </section>
+
+    <section class="journal section-wrap" id="journal">
+      <div class="section-heading">
+        <div><div class="section-kicker"><span>03 /</span> <span data-i18n="journal_kicker">ДУМКИ З ДОРОГИ</span></div><h2 data-i18n="journal_title">Гірський щоденник</h2></div>
+        <span class="muted-label">NOTES · STORIES · INSPIRATION</span>
+      </div>
+      <div class="journal-row">
+        <div class="journal-date">01 <span>—</span> FIELD NOTES</div>
+        <div><h3 data-i18n="journal_1_title">Чому я повертаюся в гори</h3><p data-i18n="journal_1_text">Про тишу, яка допомагає почути себе, і прості речі, що знову стають важливими.</p></div>
+        <a href="#connect" aria-label="Read article">↗</a>
+      </div>
+      <div class="journal-row">
+        <div class="journal-date">02 <span>—</span> TRAINING</div>
+        <div><h3 data-i18n="journal_2_title">Витривалість починається з кроку</h3><p data-i18n="journal_2_text">Мій досвід поєднання походів, бігу, велосипеда та силових тренувань.</p></div>
+        <a href="#connect" aria-label="Read article">↗</a>
+      </div>
+      <div class="journal-row">
+        <div class="journal-date">03 <span>—</span> REFLECTIONS</div>
+        <div><h3 data-i18n="journal_3_title">Дисципліна — це напрямок</h3><p data-i18n="journal_3_text">Натхнення змінюється, але власний курс допомагає продовжувати рух.</p></div>
+        <a href="#connect" aria-label="Read article">↗</a>
+      </div>
+    </section>
+
+    <section class="gallery section-wrap" id="gallery">
+      <div class="section-heading">
+        <div><div class="section-kicker"><span>04 /</span> <span data-i18n="gallery_kicker">ЗБЕРЕЖЕНІ МОМЕНТИ</span></div><h2 data-i18n="gallery_title">Світ моїми очима</h2></div>
+        <span class="muted-label">MOUNTAINS · NATURE · LIFE</span>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-photo gallery-a"></div><div class="gallery-photo gallery-b"></div><div class="gallery-photo gallery-c"></div><div class="gallery-photo gallery-d"></div>
+      </div>
+      <p class="editor-note" data-i18n="gallery_note">Тут будуть твої авторські фотографії — без стокових зображень.</p>
+    </section>
+
+    <section class="connect" id="connect">
+      <div class="connect-inner">
+        <div class="section-kicker"><span>05 /</span> <span data-i18n="connect_kicker">ЗАЛИШАЙМОСЯ НА ЗВ’ЯЗКУ</span></div>
+        <h2 data-i18n="connect_title">Побачимось<br><em>на маршруті.</em></h2>
+        <p data-i18n="connect_text">Стеж за новими походами, фотографіями та історіями в моїх соціальних мережах.</p>
+        <div class="social-links">
+          <a href="#" target="_blank" rel="noopener">Instagram <span>↗</span></a>
+          <a href="#" target="_blank" rel="noopener">Facebook <span>↗</span></a>
+          <a href="#" target="_blank" rel="noopener">YouTube <span>↗</span></a>
+          <a href="#" target="_blank" rel="noopener">Garmin Connect <span>↗</span></a>
+          <a href="#" target="_blank" rel="noopener">TikTok <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#home"><span class="brand-mark">MMW</span><span>MY MOUNTAIN WAY</span></a>
+    <span>© <span id="year"></span> MY MOUNTAIN WAY</span>
+    <a href="#home" class="back-top" data-i18n="back_top">Нагору ↑</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
